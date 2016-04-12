@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textSelectColor" format="color|reference" />
+    <attr name="toolbarTheme"  format="reference"/>
+    <attr name="toolbarPopupTheme"  format="reference"/>
+    <attr name="cardBackground" format="color|reference"/>
+    <attr name="refBackground" format="color|reference"/>
+    <attr name="subTitleColor" format="color|reference"/>
+    <attr name="titleColor" format="color|reference"/>
+    <attr name="indicatorColor" format="color|reference"/>
+</resources>

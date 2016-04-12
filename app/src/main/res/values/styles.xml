@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Preference" />
+    <style name="Preference.Category">
+        <item name="android:layout">@layout/preference_category_holo</item>
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+
+    <style name="SubText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?subTitleColor</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

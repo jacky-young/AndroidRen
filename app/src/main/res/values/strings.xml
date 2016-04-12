@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Ren</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="load_fail">加载失败 ,点击重试。</string>
+    <string name="pref_auto_page_key">autoPageLoad</string>
+    <string name="pref_auto_reflush_key">autoReflush</string>
+</resources>

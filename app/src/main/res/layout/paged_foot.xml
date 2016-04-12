@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:gravity="center" android:padding="5dp">
+
+    <TextView
+        android:id="@+id/bt_load"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="加载更多数据"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/bt_finally"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="暂无更多数据"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/pg"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:visibility="gone"
+        app:matProg_barColor="?titleColor"
+        app:matProg_barWidth="2dp"
+        app:matProg_rimWidth="2dp" />
+
+</LinearLayout>
