@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="ExtImageView">
+        <attr name="ex_enable" format="boolean"/>
+        <attr name="ex_Reversal" format="boolean"/>
+        <attr name="ex_proportion" format="float"/>
+    </declare-styleable>
+
     <attr name="textSelectColor" format="color|reference" />
     <attr name="toolbarTheme"  format="reference"/>
     <attr name="toolbarPopupTheme"  format="reference"/>

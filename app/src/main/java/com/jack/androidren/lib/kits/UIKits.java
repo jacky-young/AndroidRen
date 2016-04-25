@@ -1,5 +1,6 @@
 package com.jack.androidren.lib.kits;
 
+import android.content.Context;
 import android.content.res.ColorStateList;
 
 /**
@@ -13,5 +14,10 @@ public class UIKits {
         states[0] = new int[] {android.R.attr.state_activated};
         states[1] = new int[] {};
         return new ColorStateList(states, colors);
+    }
+
+    public static int dip2px(Context context, float dpValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (dpValue * scale + 0.5f);
     }
 }

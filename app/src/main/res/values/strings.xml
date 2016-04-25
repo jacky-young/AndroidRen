@@ -5,4 +5,6 @@
     <string name="load_fail">加载失败 ,点击重试。</string>
     <string name="pref_auto_page_key">autoPageLoad</string>
     <string name="pref_auto_reflush_key">autoReflush</string>
+    <string name="pref_show_large_image_key">largeImage</string>
+    <string name="pref_show_list_news_image_key">showListImage</string>
 </resources>

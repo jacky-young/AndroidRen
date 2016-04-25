@@ -1,6 +1,7 @@
 package com.jack.androidren.lib;
 
 import android.app.Activity;
+import android.content.Context;
 
 import com.jack.androidren.R;
 import com.jack.androidren.lib.kits.PreKits;
@@ -36,5 +37,9 @@ public class ThemeManager {
     public static void onActivityCreateSetTheme(Activity activity) {
         int[] themes = ThemeRes[PreKits.getInt(activity, "theme", 0)];
         activity.setTheme(themes[1]);
+    }
+
+    public static boolean isNightTheme(Context context) {
+        return PreKits.getInt(context, "theme", 0) == ThemeRes.length-1;
     }
 }
